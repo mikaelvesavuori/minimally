@@ -1,0 +1,61 @@
+/* GLOBAL */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.45;
+
+	padding: 0;
+	margin: 0;
+}
+
+/*
+@font-face {
+	font-family: "yourfont";
+	src:
+		url("./media/fonts/yourfont.woff2") format("woff2"),
+		url("./media/fonts/yourfont.woff") format("woff");
+	font-display: swap;
+}
+*/
+
+
+
+/* LAYOUT */
+header {
+	background-color: #e1e1e1;
+	padding: 1rem;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 768px;
+}
+
+
+
+/* COMPONENTS */
+/* Write your custom components below */
+/* For example, using BEM notation */
+/*
+.block { }
+.block__element { }
+.block--modifier { }
+.block__element--modifier { }
+*/
+
+
+
+/* RESPONSIVE */
+/* When writing low-complexity vanilla CSS you may want to have a dedicated section for responsive stuff... */
+/* ...but please use contextual responsive edits instead if you don't have super easy code! */
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: .85rem;
+	}
+
+	.wrapper {
+		padding: 1rem;
+	}
+}
