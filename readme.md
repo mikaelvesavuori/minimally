@@ -8,7 +8,7 @@ A minimal boilerplate based around a bunch of best practices and performance str
 - **SEO'ed**: Web standard HTML and prepared for Twitter + OpenGraph metadata
 - **Accessible**: Basic HTML written to conform with ARIA-WAI standards
 
-## How do use it?
+## How do I use it?
 Super simple – just clone or download the repository and start hacking away! You will want to configure your settings/data in the following files:
 - *manifest.json*: Application data
 - *sw.js*: Which files you want to cache
@@ -25,10 +25,10 @@ An example for loading a custom font, with `font-display: swap` sprinkled on top
 
 ## Libraries and stuff used
 The following libraries and helpers are used in Minimally:
-- Normalize 6.0
-- LoadCSS 1.3.1
-- Modified version of Remy Sharp's "Copy & Paste" Service Worker
-- Modified .htaccess from HTML5 Boilerplate
+- [Normalize 6.0](https://necolas.github.io/normalize.css/)
+- [LoadCSS 1.3.1](https://github.com/filamentgroup/loadCSS)
+- Modified version of [Remy Sharp's "Copy & Paste" Service Worker](https://remysharp.com/2016/03/22/the-copy--paste-guide-to-your-first-service-worker)
+- Modified .htaccess from [HTML5 Boilerplate](https://html5boilerplate.com)
 
 ### LoadCSS 1.3.1
 Not that long ago, asynchronously loaded CSS was a pipe dream – but no more! We use LoadCSS to pull in our styles as soon as possible but without blocking the initial page render.
@@ -50,6 +50,5 @@ The file is modified from the one contained in HTML5 Boilerplate 5.3.0.
 
 There are added sections for:
 - Hotlink protection
-- Redirect to root (php?)
+- Redirect to root (TODO: only php?)
 - Content Security Policy (fairly strict, make sure it works for you, and that you make whatever changes you need)
-- asdf
