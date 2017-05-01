@@ -14,9 +14,9 @@ A minimal boilerplate based around a bunch of best practices and performance str
 
 ## How do I use it?
 Super simple – just clone or download the repository and start hacking away! You will want to configure your settings/data in the following files:
-- *manifest.json*: Application data
-- *sw.js*: Which files you want to cache
-- *index.html*: Site metadata (in the head tag)
+- **manifest.json**: Application data
+- **sw.js**: Which files you want to cache
+- **index.html**: Site metadata (in the head tag)
 
 Also, when deploying or testing for the first time, make sure that the .htaccess behaves as you want on your own server/provider/domain.
 
