@@ -1,9 +1,13 @@
+[Minimally](https://github.com/mikaelvesavuori/minimally) is part of a family of web development tools which also includes [Barely](https://github.com/mikaelvesavuori/barely), [Purely](https://github.com/mikaelvesavuori/purely) and [Only](https://github.com/beingstudio/only).
+
+---
+
 # Minimally
 A minimal boilerplate based around a bunch of best practices and performance strategies. Suitable when you are starting a new web development project but want as little meddling as possible with your own particular stack.
 
 ## Features
 - **Performant**: Asynchronous loading of CSS and optimized script timing with async/defer
-- **PWA and offline support**: your site will behave like an app and be available offline
+- **PWA and offline support**: Your site will behave like an app and be available offline
 - **Secure**: .htaccess with tight Content Security Policy and hotlink protection (among lots of other things)
 - **SEO'ed**: Web standard HTML and prepared for Twitter + OpenGraph metadata
 - **Accessible**: Basic HTML written to conform with ARIA-WAI standards
@@ -46,7 +50,7 @@ It works as a progressive enhancement and has no negative impact if your browser
 Note that Service Workers will only work on HTTPS domains or when served from localhost. Running it plainly from your file system will not start the Service Worker.
 
 ### .htaccess
-The file is modified from the one contained in HTML5 Boilerplate 5.3.0.
+The file is modified from the .htaccess contained in HTML5 Boilerplate 5.3.0.
 
 There are added sections for:
 - Hotlink protection
