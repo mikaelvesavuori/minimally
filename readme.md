@@ -1,4 +1,4 @@
-[Minimally](https://github.com/mikaelvesavuori/minimally) is part of a family of web development tools which also includes [Barely](https://github.com/mikaelvesavuori/barely), [Purely](https://github.com/mikaelvesavuori/purely) and [Only](https://github.com/beingstudio/only).
+[Minimally](https://github.com/mikaelvesavuori/minimally) is part of a family of web development tools which also includes [Barely](https://github.com/mikaelvesavuori/barely), [Purely](https://github.com/mikaelvesavuori/purely) and [Only](https://github.com/beingstudio/only). It is succeeded by [Hiperf](https://github.com/mikaelvesavuori/hiperf).
 
 ---
 
